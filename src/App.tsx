@@ -180,19 +180,19 @@ export default function Portfolio() {
             </Card>
             <div className="flex justify-center space-x-4 mt-8">
               <Button variant="outline" size="icon" asChild>
-                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/TanishqMinz" target="_blank" rel="noopener noreferrer">
                   <Github className="h-4 w-4" />
                   <span className="sr-only">GitHub</span>
                 </a>
               </Button>
               <Button variant="outline" size="icon" asChild>
-                <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+                <a href="https://linkedin.com/in/tanishq-minz" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-4 w-4" />
                   <span className="sr-only">LinkedIn</span>
                 </a>
               </Button>
               <Button variant="outline" size="icon" asChild>
-                <a href="mailto:your.email@example.com">
+                <a href="mailto:tanishqminz@gmail.com">
                   <Mail className="h-4 w-4" />
                   <span className="sr-only">Email</span>
                 </a>
