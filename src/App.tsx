@@ -147,7 +147,7 @@ export default function Portfolio() {
                     <CardTitle>{project.title}</CardTitle>
                   </CardHeader>
                   <CardContent className="flex-grow">
-                    <img src={project.image} alt={project.title} className="w-full h-48 object-cover rounded-md mb-4" />
+                    <img src={`${import.meta.env.BASE_URL}/${project.image}`} alt={project.title} className="w-full h-48 object-cover rounded-md mb-4" />
                     <CardDescription>{project.description}</CardDescription>
                   </CardContent>
                   <CardFooter>
